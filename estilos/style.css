@@ -1,4 +1,10 @@
 @charset "UTF-8";
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
 
     body, html{
         height: 100vh;
@@ -24,6 +30,7 @@
         height: 627px;
         background:  url(../imagens/frame-iphone.png) center center / cover no-repeat fixed;
     }
+    
     #tela {
     position: relative;
     top: 80px;
